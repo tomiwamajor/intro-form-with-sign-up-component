@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1316px) {
+  .container {
+    width: 31rem;
+    grid-template-columns: 1fr;
+  }
+
+  .heading {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 3rem;
+  }
+
+  .paragraph {
+    text-align: center;
+  }
+
+  .form-free {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .first-name-error-icon,
+  .last-name-error-icon,
+  .email-error-icon,
+  .password-error-icon {
+    transform: translateX(20rem);
+  }
+}

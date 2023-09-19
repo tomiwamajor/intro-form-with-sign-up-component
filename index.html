@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="query.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1 class="heading">Learn to code by watching others</h1>
+        <p class="paragraph">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+
+      <div class="form">
+        <div class="form-free">
+          Try it free 7 days
+          <span class="form-light">then $20/mo. thereafter</span>
+        </div>
+
+        <div class="form-register">
+          <form action="#">
+            <input
+              class="first-name"
+              type="text"
+              name="first-name"
+              id="first-name"
+              aria-label="First Name"
+              placeholder="First Name"
+              required />
+            <span class="first-name-error-icon">
+              <img src="./images/icon-error.svg" alt="" />
+            </span>
+            <span class="first-name-hidden">First name cannot be empty</span>
+
+            <input
+              class="last-name"
+              type="text"
+              name="last-name"
+              id="last-name"
+              aria-label="Last Name"
+              placeholder="Last Name"
+              required />
+            <span class="last-name-error-icon">
+              <img src="./images/icon-error.svg" alt="" />
+            </span>
+            <span class="last-name-hidden">Last name cannot be empty</span>
+
+            <input
+              class="email"
+              type="email"
+              name="email"
+              id="email"
+              aria-label="Email"
+              placeholder="Email Address"
+              required />
+            <span class="email-error-icon">
+              <img src="./images/icon-error.svg" alt="" />
+            </span>
+            <span class="email-hidden">Email cannot be empty</span>
+
+            <input
+              class="password"
+              type="password"
+              name="Password"
+              id="Password"
+              aria-label="Password"
+              placeholder="Password"
+              required />
+            <span class="password-error-icon">
+              <img src="./images/icon-error.svg" alt="" />
+            </span>
+            <span class="password-hidden">Password cannot be empty</span>
+            <button class="btn">Claim your free trial</button>
+
+            <p class="form-terms-and-condition">
+              By clicking the button, you are agreeing to our
+              <span class="termsAndCondition">Terms and Services </span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/tomiwamajor">Tomiwamajor</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
